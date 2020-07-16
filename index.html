@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="#" class="logo">Personal Portfolio</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                 <li><a href="#">Team</a></li>
+
+            </ul>
+        </nav>
+    <div class="text-container">
+    <p>Hello,</p>
+    <p>I'm Pranoti</p>
+    <p>I am Creator <br>& Writer</p>
+   <a href="Pranoti_Resume.pdf"><button class="down-cv">Download CV</button></a>
+    </div>  
+    
+    </section>
+    <div class="about-container">
+        <!----image of me---->
+        
+        <img src="imgs.jpg" class="model" alt="model">
+        <div class="about-me">
+            <p>About Me</p>
+            <p>Pursuing MCS from Fergusson(Dream College for many).</p>
+            <p> I stay prepared for whatever life throws at...</p> 
+            <p>Multitasking is passion and adaptation is ease for me.</p>
+            <p>Because I feel that you should search for things where you lost them........</p>
+
+            <p>"There is nothing wrong in wishing to dream the whole universe at your feet"</p>
+
+            <!--------------------button-->
+            
+        </div>
+
+    </div>
+    <!-----------services-->
+  <div class="services">
+        <div class="services-text">
+    <p>Job Description</p>
+    <p>Job 1</p>
+    <p>As a part time tutor in home tutions where I realised my passion for teaching.<br>
+        It has added many values in me such as multitasking, punctuality ,hardworking ,
+        Planning and preparations.
+    </p>
+    <p>Job 2</p>
+    <p>Being a trainer ladies for pre-primary school.Here I learnt to be a leader.<br>Realised I am good at communication skills,also I am creative as I had to arrange wonderful and innovative acitivities for them.</p>
+
+    </div>
+    <!----box----------------------------------->
+    <div class="box-container">
+        <!------->
+        <div class="box1">
+                <!------->
+                <span>1</span>
+                <p class="heading">Poet</p>
+                <p class="details">Poetry is  my passion that I discovered....</p>
+                <button>
+                    Read More
+                </button>
+            </div>
+
+        <div class="box2">
+            <span>2</span>
+            <p class="heading">Cook</p>
+            <p class="details">Lockdown is a wonderful time to discover how wonderful cook a person might be..</p>
+            <button>
+                Read More
+            </button>
+        </div>
+
+
+        <div class="box3">
+            <span>3</span>
+            <p class="heading">Teacher</p>
+            <p class="details">Taking part time home tutions I learnt how wonderful teacher I can  turn into if I focus my attention...</p>
+            <button>
+                Read More
+            </button>
+        </div>
+
+        <!------->
+
+
+    </div>
+    </div>
+    <!----------------------contact me-->
+    <div class="contact-me">
+     <center>   <p>If you have any idea in your mind to change<br> the world lets collaborate...!!!</p></center>
+        <button id="myBtn">Collaborate</button>
+        </div>
+        
+  
+    <footer>
+      <center>  <p class="copyright">Trial portfolio website just an attempt to master html,css skills and take them to a next level.</p>
+        <p>Feel free to write back to me through mail.</p></center>
+        <ul class="social-icons">
+            <li><a href="http://www.facebook.com"><img src="fb.png"></a></li>
+            <li><a href="http://www.instagram.com"><img src="insta.jpeg" /></a></li>
+            <li><a href="http://www.linkedin.com"><img src="link.jpeg" /></a></li>
+            <li><a href="http://www.gmail.com"><img src="email.png" /></a></li>
+
+        </ul>
+    
+    </footer>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <center>
+          <span class="close">×</span>
+          <img src="smile.jpeg">
+          <p class="unique">
+              I, express my hearty gratitude for your response <br>I am looking forward to this wonderful opportunity.<br>
+       I feel "Ideas give rise to wonders", so lets try to contribute in unfolding the hidden beauty of this world </p></center>
+        </div>
+      
+      </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+        
+
+</body>
+</html>
+
